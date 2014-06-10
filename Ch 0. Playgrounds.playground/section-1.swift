@@ -52,3 +52,27 @@ let fruitSummary = "I have \(apples + oranges) pieces of fruit."
 var cherry: Float = 3.5
 // 整數無法直接相加
 // let fruit = "I have \(oranges + cherry) pieces of fruit."
+
+/// 陣列與詞典
+
+var shoppingList = ["catfish", "water", "tulips", "blue paint"]
+
+shoppingList[1] = "bottle of water"
+
+var occupations = [
+    "Malcolm" : "Captain",
+    "Kaylee" : "Mechanic",
+]
+
+occupations ["Jayne"] = "Public Relations"
+
+println(occupations)
+
+let emptyArray = String[]()
+
+let emptyDictionary = Dictionary<String, Float>()
+
+
+/// 流程控制
+
+
